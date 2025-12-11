@@ -1,0 +1,12 @@
+{
+  "first_name": "Leo",
+  "last_name": "Park",
+  "contact": { "email": "leo@email.com" },
+  "links": [],
+  "summary": "Freelancer.",
+  "education": [],
+  "work_experiences": [],
+  "extra_experiences": [],
+  "custom_sections": [],
+  "skills": [{ "name": "Communication" }]
+}

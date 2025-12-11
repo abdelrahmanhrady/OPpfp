@@ -1,0 +1,14 @@
+{
+  "first_name": "Maria",
+  "last_name": "Lopez",
+  "contact": { "email": "maria@email.com" },
+  "links": [],
+  "summary": "Volunteer medic.",
+  "education": [],
+  "work_experiences": [],
+  "extra_experiences": [
+    { "type": "volunteering", "name": "Red Cross", "role": "Helper" }
+  ],
+  "custom_sections": [],
+  "skills": [{ "name": "Teamwork", "level": "advanced" }]
+}

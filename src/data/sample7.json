@@ -1,0 +1,20 @@
+{
+  "first_name": "Omar",
+  "last_name": "Nabil",
+  "contact": { "email": "omar@email.com" },
+  "links": [],
+  "summary": "Researcher.",
+  "education": [],
+  "work_experiences": [],
+  "extra_experiences": [],
+  "custom_sections": [
+    {
+      "type": "publications",
+      "name": "Papers",
+      "elements": [
+        { "type": "publication", "name": "AI Ethics", "topics": ["AI"] }
+      ]
+    }
+  ],
+  "skills": [{ "name": "Research" }]
+}

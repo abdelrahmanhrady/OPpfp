@@ -1,0 +1,152 @@
+{
+  "first_name": "John",
+  "last_name": "Doe",
+  "contact": {
+    "phone": "+1-555-123-4567",
+    "email": "john.doe@email.com",
+    "address": {
+      "line1": "123 Main St",
+      "line2": "Apt 5B",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10001"
+    }
+  },
+  "links": [
+    { "name": "LinkedIn", "url": "https://linkedin.com/in/johndoe" },
+    { "name": "GitHub", "url": "https://github.com/johndoe" },
+    { "name": "Portfolio", "url": "https://johndoe.dev" }
+  ],
+  "summary": "Senior full-stack engineer with extensive cloud and AI experience.",
+  "education": [
+    {
+      "school_name": "New York University",
+      "degree": "BSc Computer Science",
+      "date": { "start": 2014, "end": 2018, "ongoing": false },
+      "location": "New York, NY",
+      "majors": ["Computer Science"],
+      "minors": ["Mathematics"],
+      "courses": ["Algorithms", "Databases"],
+      "awards": ["Dean’s List"],
+      "dissertation": [
+        {
+          "title": "Scalable Cloud Microservices",
+          "authors": ["John Doe", "Dr. Smith"],
+          "date": { "start": 2017, "end": 2018, "ongoing": false },
+          "url": "https://nyu.edu/dissertation",
+          "doi": "10.1234/cloud.2018",
+          "abstract": "Study of scalable microservices.",
+          "keywords": ["cloud", "microservices"],
+          "topics": ["Distributed Systems"]
+        }
+      ],
+      "gpa": "3.85",
+      "education_description": "Advanced backend systems focus."
+    }
+  ],
+  "work_experiences": [
+    {
+      "job_title": "Senior Engineer",
+      "employer": "Google",
+      "date": { "start": 2020, "end": 2024, "ongoing": false },
+      "location": "CA, USA",
+      "job_type": "Full-Time",
+      "description": "Led cloud API development.",
+      "bullets": ["Improved latency", "Mentored juniors"]
+    }
+  ],
+  "extra_experiences": [
+    {
+      "type": "project",
+      "name": "AI Task Manager",
+      "role": "Founder",
+      "date": { "start": 2023, "end": 2024, "ongoing": false },
+      "location": "Remote",
+      "bullets": ["Built ML pipeline"],
+      "description": "AI productivity SaaS",
+      "link": "https://github.com/ai-task"
+    }
+  ],
+  "custom_sections": [
+    {
+      "type": "certifications",
+      "name": "Certifications",
+      "elements": [
+        {
+          "id": "cert-1",
+          "type": "certification",
+          "name": "AWS Architect",
+          "issuer": "Amazon",
+          "credential_id": "AWS-9981",
+          "expiration_date": 2027,
+          "description": "Cloud architecture cert",
+          "date": { "start": 2023, "end": 2027, "ongoing": false },
+          "link": "https://aws.amazon.com",
+          "bullets": ["Multi-region systems"]
+        }
+      ]
+    },
+    {
+      "type": "languages",
+      "name": "Languages",
+      "elements": [
+        {
+          "id": "lang-1",
+          "type": "language",
+          "name": "English",
+          "proficiency": "native"
+        }
+      ]
+    },
+    {
+      "type": "publications",
+      "name": "Publications",
+      "elements": [
+        {
+          "id": "pub-1",
+          "type": "publication",
+          "name": "Scaling APIs",
+          "authors": ["John Doe"],
+          "doi": "10.9999/api.2022",
+          "topics": ["APIs"],
+          "description": "Peer reviewed paper",
+          "date": { "start": 2022, "end": 2022, "ongoing": false },
+          "link": "https://ieee.org"
+        }
+      ]
+    },
+    {
+      "type": "awards",
+      "name": "Awards",
+      "elements": [
+        {
+          "id": "award-1",
+          "type": "award",
+          "name": "Engineering Excellence",
+          "issuer": "Google",
+          "description": "Top performer",
+          "date": { "start": 2023, "end": 2023, "ongoing": false }
+        }
+      ]
+    },
+    {
+      "type": "other",
+      "name": "Other Info",
+      "elements": [
+        {
+          "id": "other-1",
+          "type": "other",
+          "name": "Security Clearance",
+          "fields": {
+            "level": "Secret",
+            "active": true
+          }
+        }
+      ]
+    }
+  ],
+  "skills": [
+    { "name": "JavaScript", "category": "Programming", "level": "expert", "years_experience": 8 },
+    { "name": "AWS", "category": "Cloud", "level": "expert", "years_experience": 7 }
+  ]
+}

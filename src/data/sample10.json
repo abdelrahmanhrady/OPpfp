@@ -1,0 +1,28 @@
+{
+  "first_name": "Hannah",
+  "last_name": "Miller",
+  "contact": {
+    "email": "hannah@email.com",
+    "address": { "city": "Boston", "state": "MA" }
+  },
+  "links": [],
+  "summary": "Bioinformatics PhD researcher.",
+  "education": [
+    {
+      "school_name": "Harvard",
+      "degree": "PhD Bioinformatics",
+      "date": { "start": 2019, "end": 0, "ongoing": true },
+      "location": "Boston",
+      "majors": ["Bioinformatics"],
+      "gpa": "4.0",
+      "education_description": "Genetic algorithms research."
+    }
+  ],
+  "work_experiences": [],
+  "extra_experiences": [],
+  "custom_sections": [],
+  "skills": [
+    { "name": "Python", "level": "expert" },
+    { "name": "R", "level": "advanced" }
+  ]
+}

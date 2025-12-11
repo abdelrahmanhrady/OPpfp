@@ -1,0 +1,12 @@
+{
+  "first_name": "Sara",
+  "last_name": "Khan",
+  "contact": { "email": "sara@email.com" },
+  "links": [],
+  "summary": "Junior designer.",
+  "education": [],
+  "work_experiences": [],
+  "extra_experiences": [],
+  "custom_sections": [],
+  "skills": [{ "name": "Figma" }]
+}

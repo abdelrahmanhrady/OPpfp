@@ -1,0 +1,22 @@
+{
+  "first_name": "Laura",
+  "last_name": "White",
+  "contact": { "email": "laura@email.com", "phone": "+44-888" },
+  "links": [],
+  "summary": "Cloud architect.",
+  "education": [],
+  "work_experiences": [
+    {
+      "job_title": "Architect",
+      "employer": "AWS",
+      "date": { "start": 2015, "end": 0, "ongoing": true },
+      "location": "UK",
+      "job_type": "Full-Time",
+      "description": "Cloud design",
+      "bullets": ["Security", "Scalability"]
+    }
+  ],
+  "extra_experiences": [],
+  "custom_sections": [],
+  "skills": [{ "name": "AWS", "level": "expert", "years_experience": 10 }]
+}

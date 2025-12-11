@@ -1,0 +1,22 @@
+{
+  "first_name": "Nina",
+  "last_name": "Brown",
+  "contact": { "email": "nina@email.com" },
+  "links": [],
+  "summary": "HR Manager.",
+  "education": [],
+  "work_experiences": [
+    {
+      "job_title": "HR Manager",
+      "employer": "IBM",
+      "date": { "start": 2018, "end": 2024, "ongoing": false },
+      "location": "Remote",
+      "job_type": "Full-Time",
+      "description": "Hiring lead",
+      "bullets": ["Recruitment", "Training"]
+    }
+  ],
+  "extra_experiences": [],
+  "custom_sections": [],
+  "skills": [{ "name": "Recruitment", "level": "expert" }]
+}

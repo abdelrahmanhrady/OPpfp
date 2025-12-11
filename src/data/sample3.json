@@ -1,0 +1,30 @@
+{
+  "first_name": "Ali",
+  "last_name": "Hassan",
+  "contact": { "email": "ali@email.com" },
+  "links": [],
+  "summary": "CS student.",
+  "education": [
+    {
+      "school_name": "UofT",
+      "degree": "BSc CS",
+      "date": { "start": 2022, "end": 0, "ongoing": true },
+      "location": "Toronto",
+      "majors": ["CS"],
+      "gpa": "3.6",
+      "education_description": "Software systems focus."
+    }
+  ],
+  "work_experiences": [],
+  "extra_experiences": [],
+  "custom_sections": [
+    {
+      "type": "languages",
+      "name": "Languages",
+      "elements": [
+        { "type": "language", "name": "Arabic", "proficiency": "native" }
+      ]
+    }
+  ],
+  "skills": [{ "name": "Python", "level": "intermediate" }]
+}
