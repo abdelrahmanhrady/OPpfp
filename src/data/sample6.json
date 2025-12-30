@@ -1,22 +1,126 @@
 {
-  "first_name": "Laura",
-  "last_name": "White",
-  "contact": { "email": "laura@email.com", "phone": "+44-888" },
-  "links": [],
-  "summary": "Cloud architect.",
-  "education": [],
-  "work_experiences": [
+  "first_name": "Alexander",
+  "last_name": "Petrov",
+  "contact": {
+    "phone": "+1-212-555-4409",
+    "email": "alex.petrov@email.com",
+    "address": {
+      "line1": "200 Vesey St",
+      "line2": "Floor 18",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10281"
+    }
+  },
+  "links": [
+    { "name": "LinkedIn", "url": "https://linkedin.com/in/alexpetrov" },
+    { "name": "GitHub", "url": "https://github.com/apetrov-quant" }
+  ],
+  "summary": "Quantitative finance engineer specializing in low-latency trading systems and statistical modeling.",
+  "education": [
     {
-      "job_title": "Architect",
-      "employer": "AWS",
-      "date": { "start": 2015, "end": 0, "ongoing": true },
-      "location": "UK",
-      "job_type": "Full-Time",
-      "description": "Cloud design",
-      "bullets": ["Security", "Scalability"]
+      "school_name": "Columbia University",
+      "degree": "MSc Financial Engineering",
+      "date": { "start": 2014, "end": 2016, "ongoing": false },
+      "location": "New York, NY",
+      "majors": ["Financial Engineering"],
+      "minors": ["Applied Mathematics"],
+      "courses": [
+        "Stochastic Calculus",
+        "Derivatives Pricing",
+        "High-Frequency Trading Systems"
+      ],
+      "awards": ["Quant Excellence Scholarship"],
+      "dissertation": [
+        {
+          "title": "Latency-Aware Trading Strategies",
+          "authors": ["Alexander Petrov"],
+          "date": { "start": 2015, "end": 2016, "ongoing": false },
+          "url": "https://columbia.edu/thesis",
+          "doi": "10.7777/hft.latency",
+          "abstract": "Modeling execution latency in electronic markets.",
+          "keywords": ["HFT", "quantitative finance"],
+          "topics": ["Market Microstructure"]
+        }
+      ],
+      "gpa": "3.88",
+      "education_description": "Focus on quantitative trading systems and risk modeling."
     }
   ],
-  "extra_experiences": [],
-  "custom_sections": [],
-  "skills": [{ "name": "AWS", "level": "expert", "years_experience": 10 }]
+  "work_experiences": [
+    {
+      "job_title": "Senior Quantitative Engineer",
+      "employer": "Two Sigma",
+      "date": { "start": 2016, "end": 2024, "ongoing": false },
+      "location": "New York, NY",
+      "job_type": "Full-Time",
+      "description": "Designed low-latency trading infrastructure and pricing models.",
+      "bullets": [
+        "Improved execution speed by 28%",
+        "Built real-time risk monitoring systems",
+        "Collaborated with research and trading desks"
+      ]
+    }
+  ],
+  "extra_experiences": [
+    {
+      "type": "event",
+      "name": "Global Quant Conference",
+      "role": "Speaker",
+      "date": { "start": 2022, "end": 2022, "ongoing": false },
+      "location": "London, UK",
+      "bullets": ["Presented latency modeling research"],
+      "description": "Invited speaker on market microstructure",
+      "link": "https://quantconference.org"
+    }
+  ],
+  "custom_sections": [
+    {
+      "type": "certifications",
+      "name": "Certifications",
+      "elements": [
+        {
+          "type": "certification",
+          "name": "CQF",
+          "issuer": "Wilmott",
+          "credential_id": "CQF-55821",
+          "expiration_date": 2030,
+          "description": "Certificate in Quantitative Finance",
+          "date": { "start": 2017, "end": 2030, "ongoing": false },
+          "link": "https://cqf.com",
+          "bullets": ["Advanced derivatives modeling"]
+        }
+      ]
+    },
+    {
+      "type": "languages",
+      "name": "Languages",
+      "elements": [
+        { "type": "language", "name": "English", "proficiency": "native" },
+        { "type": "language", "name": "Russian", "proficiency": "native" }
+      ]
+    },
+    {
+      "type": "publications",
+      "name": "Publications",
+      "elements": [
+        {
+          "type": "publication",
+          "name": "Latency Modeling in Electronic Markets",
+          "authors": ["Alexander Petrov"],
+          "doi": "10.5555/market.latency",
+          "topics": ["Quant Finance"],
+          "description": "Finance Research Letters",
+          "date": { "start": 2021, "end": 2021, "ongoing": false },
+          "link": "https://sciencedirect.com"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    { "name": "C++", "category": "Programming", "level": "expert", "years_experience": 12 },
+    { "name": "Python", "category": "Programming", "level": "expert", "years_experience": 10 },
+    { "name": "Statistics", "category": "Math", "level": "expert", "years_experience": 12 },
+    { "name": "Low-Latency Systems", "category": "Infrastructure", "level": "advanced", "years_experience": 9 }
+  ]
 }

@@ -1,20 +1,95 @@
 {
-  "first_name": "David",
-  "last_name": "Chen",
-  "contact": { "email": "david@email.com" },
-  "links": [],
-  "summary": "Finance student.",
-  "education": [],
-  "work_experiences": [],
-  "extra_experiences": [],
-  "custom_sections": [
+  "first_name": "Dr. Emily",
+  "last_name": "Cho",
+  "contact": {
+    "phone": "+1-617-555-1134",
+    "email": "emily.cho@email.com",
+    "address": {
+      "line1": "12 Oxford St",
+      "line2": "Office 314",
+      "city": "Cambridge",
+      "state": "MA",
+      "zip": "02138"
+    }
+  },
+  "links": [
+    { "name": "Google Scholar", "url": "https://scholar.google.com/emilycho" },
+    { "name": "Personal Site", "url": "https://emilycho.ai" }
+  ],
+  "summary": "AI researcher specializing in explainability, ethics, and model interpretability.",
+  "education": [
     {
-      "type": "certifications",
-      "name": "Certs",
-      "elements": [
-        { "type": "certification", "name": "Excel Pro", "issuer": "Microsoft" }
+      "school_name": "Harvard University",
+      "degree": "PhD Artificial Intelligence",
+      "date": { "start": 2013, "end": 2019, "ongoing": false },
+      "location": "Cambridge, MA",
+      "majors": ["Artificial Intelligence"],
+      "minors": ["Philosophy"],
+      "courses": ["ML Theory", "AI Ethics"],
+      "awards": ["Best Dissertation Award"],
+      "dissertation": [
+        {
+          "title": "Interpretable Neural Decision Models",
+          "authors": ["Emily Cho"],
+          "date": { "start": 2017, "end": 2019, "ongoing": false },
+          "url": "https://harvard.edu/dissertation",
+          "doi": "10.9000/ai.interpret",
+          "abstract": "Explainability frameworks for deep models.",
+          "keywords": ["AI", "interpretability"],
+          "topics": ["Machine Learning"]
+        }
+      ],
+      "gpa": "4.0",
+      "education_description": "Doctoral research in ethical AI."
+    }
+  ],
+  "work_experiences": [
+    {
+      "job_title": "Principal Research Scientist",
+      "employer": "DeepMind",
+      "date": { "start": 2019, "end": 2024, "ongoing": false },
+      "location": "London, UK",
+      "job_type": "Full-Time",
+      "description": "Led AI interpretability research group.",
+      "bullets": [
+        "Published 20+ papers",
+        "Advised global AI policy boards"
       ]
     }
   ],
-  "skills": [{ "name": "Excel" }]
+  "extra_experiences": [
+    {
+      "type": "event",
+      "name": "NeurIPS",
+      "role": "Program Committee",
+      "date": { "start": 2021, "end": 2024, "ongoing": false },
+      "location": "Global",
+      "bullets": ["Reviewed 300+ papers"],
+      "description": "Conference program committee member",
+      "link": "https://neurips.cc"
+    }
+  ],
+  "custom_sections": [
+    {
+      "type": "publications",
+      "name": "Publications",
+      "elements": [
+        {
+          "type": "publication",
+          "name": "Explainable AI in Practice",
+          "authors": ["Emily Cho"],
+          "doi": "10.1234/xai.2023",
+          "topics": ["Explainable AI"],
+          "description": "Journal of AI Research",
+          "date": { "start": 2023, "end": 2023, "ongoing": false },
+          "link": "https://jair.org"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    { "name": "Machine Learning", "category": "AI", "level": "expert", "years_experience": 12 },
+    { "name": "AI Ethics", "category": "Research", "level": "expert", "years_experience": 8 },
+    { "name": "Python", "category": "Programming", "level": "advanced", "years_experience": 10 }
+  ]
 }

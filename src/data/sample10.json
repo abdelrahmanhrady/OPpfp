@@ -1,28 +1,84 @@
 {
-  "first_name": "Hannah",
-  "last_name": "Miller",
+  "first_name": "David",
+  "last_name": "Okafor",
   "contact": {
-    "email": "hannah@email.com",
-    "address": { "city": "Boston", "state": "MA" }
+    "phone": "+1-972-555-8842",
+    "email": "david.okafor@email.com",
+    "address": {
+      "line1": "400 N Akard St",
+      "line2": "Suite 2200",
+      "city": "Dallas",
+      "state": "TX",
+      "zip": "75201"
+    }
   },
-  "links": [],
-  "summary": "Bioinformatics PhD researcher.",
+  "links": [
+    { "name": "LinkedIn", "url": "https://linkedin.com/in/david-okafor" }
+  ],
+  "summary": "Operations and supply chain leader with experience scaling global manufacturing networks.",
   "education": [
     {
-      "school_name": "Harvard",
-      "degree": "PhD Bioinformatics",
-      "date": { "start": 2019, "end": 0, "ongoing": true },
-      "location": "Boston",
-      "majors": ["Bioinformatics"],
-      "gpa": "4.0",
-      "education_description": "Genetic algorithms research."
+      "school_name": "University of Texas at Austin",
+      "degree": "MBA Operations Management",
+      "date": { "start": 2012, "end": 2014, "ongoing": false },
+      "location": "Austin, TX",
+      "majors": ["Operations Management"],
+      "minors": ["Supply Chain"],
+      "courses": [
+        "Global Supply Chains",
+        "Lean Manufacturing",
+        "Operations Strategy"
+      ],
+      "awards": ["Dean’s Honor List"],
+      "gpa": "3.81",
+      "education_description": "Focused on large-scale operations and logistics."
     }
   ],
-  "work_experiences": [],
-  "extra_experiences": [],
-  "custom_sections": [],
+  "work_experiences": [
+    {
+      "job_title": "Director of Supply Chain",
+      "employer": "Texas Instruments",
+      "date": { "start": 2015, "end": 2024, "ongoing": false },
+      "location": "Dallas, TX",
+      "job_type": "Full-Time",
+      "description": "Oversaw global sourcing and manufacturing operations.",
+      "bullets": [
+        "Managed $500M annual procurement budget",
+        "Reduced lead times by 22%",
+        "Implemented supplier risk mitigation strategies"
+      ]
+    }
+  ],
+  "custom_sections": [
+    {
+      "type": "certifications",
+      "name": "Certifications",
+      "elements": [
+        {
+          "type": "certification",
+          "name": "CSCP",
+          "issuer": "APICS",
+          "credential_id": "CSCP-77441",
+          "expiration_date": 2031,
+          "description": "Certified Supply Chain Professional",
+          "date": { "start": 2016, "end": 2031, "ongoing": false },
+          "link": "https://apics.org"
+        }
+      ]
+    },
+    {
+      "type": "languages",
+      "name": "Languages",
+      "elements": [
+        { "type": "language", "name": "English", "proficiency": "native" },
+        { "type": "language", "name": "Igbo", "proficiency": "conversational" }
+      ]
+    }
+  ],
   "skills": [
-    { "name": "Python", "level": "expert" },
-    { "name": "R", "level": "advanced" }
+    { "name": "Supply Chain Management", "category": "Operations", "level": "expert", "years_experience": 14 },
+    { "name": "Lean Manufacturing", "category": "Operations", "level": "advanced", "years_experience": 12 },
+    { "name": "ERP Systems", "category": "Technology", "level": "advanced", "years_experience": 10 },
+    { "name": "Vendor Negotiation", "category": "Management", "level": "expert", "years_experience": 13 }
   ]
 }

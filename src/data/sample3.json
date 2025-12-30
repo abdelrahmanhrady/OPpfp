@@ -1,30 +1,87 @@
 {
-  "first_name": "Ali",
-  "last_name": "Hassan",
-  "contact": { "email": "ali@email.com" },
-  "links": [],
-  "summary": "CS student.",
+  "first_name": "Isabella",
+  "last_name": "Moreno",
+  "contact": {
+    "phone": "+34-600-555-882",
+    "email": "isabella.moreno@email.com",
+    "address": {
+      "line1": "Calle Gran Via 45",
+      "line2": "3A",
+      "city": "Madrid",
+      "state": "Madrid",
+      "zip": "28013"
+    }
+  },
+  "links": [
+    { "name": "LinkedIn", "url": "https://linkedin.com/in/isoreno" },
+    { "name": "Portfolio", "url": "https://isoreno.design" }
+  ],
+  "summary": "Senior UX researcher and designer specializing in enterprise usability and accessibility.",
   "education": [
     {
-      "school_name": "UofT",
-      "degree": "BSc CS",
-      "date": { "start": 2022, "end": 0, "ongoing": true },
-      "location": "Toronto",
-      "majors": ["CS"],
-      "gpa": "3.6",
-      "education_description": "Software systems focus."
+      "school_name": "University of Barcelona",
+      "degree": "MSc Human-Computer Interaction",
+      "date": { "start": 2014, "end": 2016, "ongoing": false },
+      "location": "Barcelona, Spain",
+      "majors": ["Human-Computer Interaction"],
+      "minors": ["Psychology"],
+      "courses": ["UX Research", "Accessibility"],
+      "awards": ["Best Thesis Award"],
+      "dissertation": [
+        {
+          "title": "Accessibility-Driven Design Systems",
+          "authors": ["Isabella Moreno"],
+          "date": { "start": 2015, "end": 2016, "ongoing": false },
+          "url": "https://ub.edu/thesis",
+          "doi": "10.2000/hci.access",
+          "abstract": "Inclusive enterprise UX research.",
+          "keywords": ["accessibility", "ux"],
+          "topics": ["HCI"]
+        }
+      ],
+      "gpa": "4.0",
+      "education_description": "Research-heavy UX program."
     }
   ],
-  "work_experiences": [],
-  "extra_experiences": [],
+  "work_experiences": [
+    {
+      "job_title": "Senior UX Researcher",
+      "employer": "SAP",
+      "date": { "start": 2017, "end": 2024, "ongoing": false },
+      "location": "Madrid, Spain",
+      "job_type": "Full-Time",
+      "description": "Led enterprise UX research initiatives.",
+      "bullets": [
+        "Conducted global usability studies",
+        "Defined accessibility standards"
+      ]
+    }
+  ],
+  "extra_experiences": [
+    {
+      "type": "club",
+      "name": "UX Accessibility Council",
+      "role": "Chair",
+      "date": { "start": 2020, "end": 2024, "ongoing": false },
+      "location": "EU",
+      "bullets": ["Organized workshops"],
+      "description": "Advocacy group for inclusive design",
+      "link": "https://uxaccess.org"
+    }
+  ],
   "custom_sections": [
     {
       "type": "languages",
       "name": "Languages",
       "elements": [
-        { "type": "language", "name": "Arabic", "proficiency": "native" }
+        { "type": "language", "name": "Spanish", "proficiency": "native" },
+        { "type": "language", "name": "English", "proficiency": "fluent" }
       ]
     }
   ],
-  "skills": [{ "name": "Python", "level": "intermediate" }]
+  "skills": [
+    { "name": "UX Research", "category": "Design", "level": "expert", "years_experience": 10 },
+    { "name": "Accessibility", "category": "Design", "level": "expert", "years_experience": 8 },
+    { "name": "Figma", "category": "Tools", "level": "advanced", "years_experience": 6 }
+  ]
 }

@@ -1,70 +1,73 @@
 {
-  "first_name": "John",
-  "last_name": "Doe",
+  "first_name": "Jonathan",
+  "last_name": "Reeves",
   "contact": {
-    "phone": "+1-555-123-4567",
-    "email": "john.doe@email.com",
+    "phone": "+1-617-555-9921",
+    "email": "jonathan.reeves@email.com",
     "address": {
-      "line1": "123 Main St",
-      "line2": "Apt 5B",
-      "city": "New York",
-      "state": "NY",
-      "zip": "10001"
+      "line1": "88 Beacon St",
+      "line2": "Unit 12",
+      "city": "Boston",
+      "state": "MA",
+      "zip": "02108"
     }
   },
   "links": [
-    { "name": "LinkedIn", "url": "https://linkedin.com/in/johndoe" },
-    { "name": "GitHub", "url": "https://github.com/johndoe" },
-    { "name": "Portfolio", "url": "https://johndoe.dev" }
+    { "name": "LinkedIn", "url": "https://linkedin.com/in/jreeves" },
+    { "name": "GitHub", "url": "https://github.com/jreeves" },
+    { "name": "Portfolio", "url": "https://jreeves.dev" }
   ],
-  "summary": "Senior full-stack engineer with extensive cloud and AI experience.",
+  "summary": "Staff software engineer with expertise in distributed systems, cloud infrastructure, and developer tooling.",
   "education": [
     {
-      "school_name": "New York University",
-      "degree": "BSc Computer Science",
-      "date": { "start": 2014, "end": 2018, "ongoing": false },
-      "location": "New York, NY",
+      "school_name": "MIT",
+      "degree": "PhD Computer Science",
+      "date": { "start": 2012, "end": 2017, "ongoing": false },
+      "location": "Cambridge, MA",
       "majors": ["Computer Science"],
-      "minors": ["Mathematics"],
-      "courses": ["Algorithms", "Databases"],
-      "awards": ["Dean’s List"],
+      "minors": ["Applied Mathematics"],
+      "courses": ["Distributed Systems", "Advanced Algorithms"],
+      "awards": ["NSF Fellowship"],
       "dissertation": [
         {
-          "title": "Scalable Cloud Microservices",
-          "authors": ["John Doe", "Dr. Smith"],
-          "date": { "start": 2017, "end": 2018, "ongoing": false },
-          "url": "https://nyu.edu/dissertation",
-          "doi": "10.1234/cloud.2018",
-          "abstract": "Study of scalable microservices.",
-          "keywords": ["cloud", "microservices"],
-          "topics": ["Distributed Systems"]
+          "title": "Fault-Tolerant Distributed Consensus",
+          "authors": ["Jonathan Reeves"],
+          "date": { "start": 2015, "end": 2017, "ongoing": false },
+          "url": "https://mit.edu/thesis",
+          "doi": "10.1000/mit.ds.2017",
+          "abstract": "Exploration of scalable consensus protocols.",
+          "keywords": ["consensus", "distributed systems"],
+          "topics": ["Distributed Computing"]
         }
       ],
-      "gpa": "3.85",
-      "education_description": "Advanced backend systems focus."
+      "gpa": "4.9",
+      "education_description": "Doctoral research in fault-tolerant systems."
     }
   ],
   "work_experiences": [
     {
-      "job_title": "Senior Engineer",
-      "employer": "Google",
-      "date": { "start": 2020, "end": 2024, "ongoing": false },
-      "location": "CA, USA",
+      "job_title": "Staff Software Engineer",
+      "employer": "Amazon Web Services",
+      "date": { "start": 2018, "end": 2024, "ongoing": false },
+      "location": "Seattle, WA",
       "job_type": "Full-Time",
-      "description": "Led cloud API development.",
-      "bullets": ["Improved latency", "Mentored juniors"]
+      "description": "Designed large-scale cloud control planes.",
+      "bullets": [
+        "Led cross-team architecture initiatives",
+        "Reduced system outages by 60%"
+      ]
     }
   ],
   "extra_experiences": [
     {
-      "type": "project",
-      "name": "AI Task Manager",
-      "role": "Founder",
-      "date": { "start": 2023, "end": 2024, "ongoing": false },
+      "type": "volunteering",
+      "name": "Open Source Maintainer",
+      "role": "Lead Maintainer",
+      "date": { "start": 2019, "end": 2024, "ongoing": false },
       "location": "Remote",
-      "bullets": ["Built ML pipeline"],
-      "description": "AI productivity SaaS",
-      "link": "https://github.com/ai-task"
+      "bullets": ["Reviewed 500+ PRs"],
+      "description": "Maintains critical open-source infra tooling.",
+      "link": "https://github.com/infra-tool"
     }
   ],
   "custom_sections": [
@@ -73,16 +76,16 @@
       "name": "Certifications",
       "elements": [
         {
-          "id": "cert-1",
           "type": "certification",
-          "name": "AWS Architect",
+          "id": "cert-aws",
+          "name": "AWS Solutions Architect Professional",
           "issuer": "Amazon",
-          "credential_id": "AWS-9981",
+          "credential_id": "AWS-PRO-9912",
           "expiration_date": 2027,
-          "description": "Cloud architecture cert",
+          "description": "Advanced cloud architecture certification",
           "date": { "start": 2023, "end": 2027, "ongoing": false },
           "link": "https://aws.amazon.com",
-          "bullets": ["Multi-region systems"]
+          "bullets": ["Multi-region design"]
         }
       ]
     },
@@ -90,11 +93,21 @@
       "type": "languages",
       "name": "Languages",
       "elements": [
+        { "type": "language", "id": "lang-en", "name": "English", "proficiency": "native" },
+        { "type": "language", "id": "lang-fr", "name": "French", "proficiency": "fluent" }
+      ]
+    },
+    {
+      "type": "awards",
+      "name": "Awards",
+      "elements": [
         {
-          "id": "lang-1",
-          "type": "language",
-          "name": "English",
-          "proficiency": "native"
+          "type": "award",
+          "id": "award-1",
+          "name": "Principal Engineering Award",
+          "issuer": "AWS",
+          "description": "Top technical contributor",
+          "date": { "start": 2022, "end": 2022, "ongoing": false }
         }
       ]
     },
@@ -103,42 +116,28 @@
       "name": "Publications",
       "elements": [
         {
-          "id": "pub-1",
           "type": "publication",
-          "name": "Scaling APIs",
-          "authors": ["John Doe"],
-          "doi": "10.9999/api.2022",
-          "topics": ["APIs"],
-          "description": "Peer reviewed paper",
-          "date": { "start": 2022, "end": 2022, "ongoing": false },
+          "id": "pub-1",
+          "name": "Scalable Consensus at Cloud Scale",
+          "authors": ["Jonathan Reeves"],
+          "doi": "10.5555/cloud.consensus",
+          "topics": ["Cloud", "Distributed Systems"],
+          "description": "Peer-reviewed journal article",
+          "date": { "start": 2021, "end": 2021, "ongoing": false },
           "link": "https://ieee.org"
         }
       ]
     },
     {
-      "type": "awards",
-      "name": "Awards",
-      "elements": [
-        {
-          "id": "award-1",
-          "type": "award",
-          "name": "Engineering Excellence",
-          "issuer": "Google",
-          "description": "Top performer",
-          "date": { "start": 2023, "end": 2023, "ongoing": false }
-        }
-      ]
-    },
-    {
       "type": "other",
-      "name": "Other Info",
+      "name": "Other",
       "elements": [
         {
-          "id": "other-1",
           "type": "other",
+          "id": "other-1",
           "name": "Security Clearance",
           "fields": {
-            "level": "Secret",
+            "level": "Top Secret",
             "active": true
           }
         }
@@ -146,7 +145,8 @@
     }
   ],
   "skills": [
-    { "name": "JavaScript", "category": "Programming", "level": "expert", "years_experience": 8 },
-    { "name": "AWS", "category": "Cloud", "level": "expert", "years_experience": 7 }
+    { "name": "Distributed Systems", "category": "Backend", "level": "expert", "years_experience": 12 },
+    { "name": "AWS", "category": "Cloud", "level": "expert", "years_experience": 10 },
+    { "name": "Go", "category": "Programming", "level": "advanced", "years_experience": 8 }
   ]
 }

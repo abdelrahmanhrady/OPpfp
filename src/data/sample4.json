@@ -1,14 +1,130 @@
 {
-  "first_name": "Maria",
-  "last_name": "Lopez",
-  "contact": { "email": "maria@email.com" },
-  "links": [],
-  "summary": "Volunteer medic.",
-  "education": [],
-  "work_experiences": [],
-  "extra_experiences": [
-    { "type": "volunteering", "name": "Red Cross", "role": "Helper" }
+  "first_name": "Thomas",
+  "last_name": "Alvarez",
+  "contact": {
+    "phone": "+1-512-555-7744",
+    "email": "thomas.alvarez@email.com",
+    "address": {
+      "line1": "1401 Lavaca St",
+      "line2": "Suite 9",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78701"
+    }
+  },
+  "links": [
+    { "name": "LinkedIn", "url": "https://linkedin.com/in/talvarez" },
+    { "name": "GitHub", "url": "https://github.com/talvarez" },
+    { "name": "Blog", "url": "https://infra-notes.dev" }
   ],
-  "custom_sections": [],
-  "skills": [{ "name": "Teamwork", "level": "advanced" }]
+  "summary": "Senior backend engineer focused on reliability, observability, and distributed infrastructure.",
+  "education": [
+    {
+      "school_name": "University of Texas at Austin",
+      "degree": "MSc Computer Engineering",
+      "date": { "start": 2014, "end": 2016, "ongoing": false },
+      "location": "Austin, TX",
+      "majors": ["Computer Engineering"],
+      "minors": ["Electrical Engineering"],
+      "courses": ["Operating Systems", "Advanced Networking"],
+      "awards": ["Graduate Fellowship"],
+      "dissertation": [
+        {
+          "title": "High Availability in Cloud-Native Systems",
+          "authors": ["Thomas Alvarez"],
+          "date": { "start": 2015, "end": 2016, "ongoing": false },
+          "url": "https://utexas.edu/thesis",
+          "doi": "10.4000/cloud.ha",
+          "abstract": "Research on fault-tolerant service meshes.",
+          "keywords": ["availability", "cloud"],
+          "topics": ["Distributed Systems"]
+        }
+      ],
+      "gpa": "3.92",
+      "education_description": "Graduate research in cloud infrastructure."
+    }
+  ],
+  "work_experiences": [
+    {
+      "job_title": "Senior Backend Engineer",
+      "employer": "Cloudflare",
+      "date": { "start": 2017, "end": 2024, "ongoing": false },
+      "location": "Austin, TX",
+      "job_type": "Full-Time",
+      "description": "Designed globally distributed edge services.",
+      "bullets": [
+        "Built fault-tolerant routing layers",
+        "Reduced incident rates by 45%"
+      ]
+    }
+  ],
+  "extra_experiences": [
+    {
+      "type": "volunteering",
+      "name": "Linux Kernel Mentorship",
+      "role": "Mentor",
+      "date": { "start": 2020, "end": 2024, "ongoing": false },
+      "location": "Remote",
+      "bullets": ["Mentored 15 contributors"],
+      "description": "Mentorship for open-source kernel contributors.",
+      "link": "https://kernel.org"
+    }
+  ],
+  "custom_sections": [
+    {
+      "type": "certifications",
+      "name": "Certifications",
+      "elements": [
+        {
+          "type": "certification",
+          "id": "cert-gcp",
+          "name": "GCP Professional Architect",
+          "issuer": "Google",
+          "credential_id": "GCP-88921",
+          "expiration_date": 2026,
+          "description": "Advanced cloud architecture",
+          "date": { "start": 2022, "end": 2026, "ongoing": false },
+          "link": "https://cloud.google.com",
+          "bullets": ["Multi-region systems"]
+        }
+      ]
+    },
+    {
+      "type": "languages",
+      "name": "Languages",
+      "elements": [
+        { "type": "language", "name": "English", "proficiency": "native" },
+        { "type": "language", "name": "Spanish", "proficiency": "fluent" }
+      ]
+    },
+    {
+      "type": "awards",
+      "name": "Awards",
+      "elements": [
+        {
+          "type": "award",
+          "name": "Reliability Champion",
+          "issuer": "Cloudflare",
+          "description": "Outstanding system stability impact",
+          "date": { "start": 2023, "end": 2023, "ongoing": false }
+        }
+      ]
+    },
+    {
+      "type": "other",
+      "name": "Other",
+      "elements": [
+        {
+          "type": "other",
+          "name": "Security Clearance",
+          "fields": { "level": "Secret", "active": true }
+        }
+      ]
+    }
+  ],
+  "skills": [
+    { "name": "Go", "category": "Programming", "level": "expert", "years_experience": 9 },
+    { "name": "Distributed Systems", "category": "Backend", "level": "expert", "years_experience": 10 },
+    { "name": "Observability", "category": "Infrastructure", "level": "advanced", "years_experience": 7 }
+  ]
 }

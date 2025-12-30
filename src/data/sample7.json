@@ -1,20 +1,122 @@
 {
-  "first_name": "Omar",
-  "last_name": "Nabil",
-  "contact": { "email": "omar@email.com" },
-  "links": [],
-  "summary": "Researcher.",
-  "education": [],
-  "work_experiences": [],
-  "extra_experiences": [],
-  "custom_sections": [
+  "first_name": "Hannah",
+  "last_name": "Kim",
+  "contact": {
+    "phone": "+1-408-555-9182",
+    "email": "hannah.kim@email.com",
+    "address": {
+      "line1": "500 El Camino Real",
+      "line2": "Lab 3",
+      "city": "Santa Clara",
+      "state": "CA",
+      "zip": "95050"
+    }
+  },
+  "links": [
+    { "name": "GitHub", "url": "https://github.com/hkim-robotics" },
+    { "name": "Portfolio", "url": "https://hkimrobotics.dev" }
+  ],
+  "summary": "Robotics engineer with expertise in autonomous navigation, perception, and real-world deployment.",
+  "education": [
     {
-      "type": "publications",
-      "name": "Papers",
-      "elements": [
-        { "type": "publication", "name": "AI Ethics", "topics": ["AI"] }
+      "school_name": "Carnegie Mellon University",
+      "degree": "MSc Robotics",
+      "date": { "start": 2016, "end": 2018, "ongoing": false },
+      "location": "Pittsburgh, PA",
+      "majors": ["Robotics"],
+      "minors": ["Mechanical Engineering"],
+      "courses": [
+        "Robot Perception",
+        "SLAM",
+        "Motion Planning"
+      ],
+      "awards": ["Robotics Institute Fellowship"],
+      "dissertation": [
+        {
+          "title": "Autonomous Navigation in Dynamic Environments",
+          "authors": ["Hannah Kim"],
+          "date": { "start": 2017, "end": 2018, "ongoing": false },
+          "url": "https://cmu.edu/robotics/thesis",
+          "doi": "10.8888/robot.nav",
+          "abstract": "Robust navigation for mobile robots.",
+          "keywords": ["robotics", "autonomy"],
+          "topics": ["Autonomous Systems"]
+        }
+      ],
+      "gpa": "3.95",
+      "education_description": "Hands-on robotics research and deployment."
+    }
+  ],
+  "work_experiences": [
+    {
+      "job_title": "Senior Robotics Engineer",
+      "employer": "Boston Dynamics",
+      "date": { "start": 2018, "end": 2024, "ongoing": false },
+      "location": "Waltham, MA",
+      "job_type": "Full-Time",
+      "description": "Developed autonomy software for legged robots.",
+      "bullets": [
+        "Improved navigation robustness by 40%",
+        "Integrated perception and planning pipelines",
+        "Field-tested robots in real-world environments"
       ]
     }
   ],
-  "skills": [{ "name": "Research" }]
+  "extra_experiences": [
+    {
+      "type": "competition",
+      "name": "DARPA Robotics Challenge",
+      "role": "Team Member",
+      "date": { "start": 2017, "end": 2017, "ongoing": false },
+      "location": "USA",
+      "bullets": ["Contributed to perception stack"],
+      "description": "International robotics competition",
+      "link": "https://darpa.mil"
+    }
+  ],
+  "custom_sections": [
+    {
+      "type": "awards",
+      "name": "Awards",
+      "elements": [
+        {
+          "type": "award",
+          "name": "Innovation in Robotics",
+          "issuer": "Boston Dynamics",
+          "description": "Outstanding autonomy contribution",
+          "date": { "start": 2022, "end": 2022, "ongoing": false }
+        }
+      ]
+    },
+    {
+      "type": "publications",
+      "name": "Publications",
+      "elements": [
+        {
+          "type": "publication",
+          "name": "Robust SLAM for Legged Robots",
+          "authors": ["Hannah Kim"],
+          "doi": "10.6666/robot.slam",
+          "topics": ["Robotics", "SLAM"],
+          "description": "IEEE Robotics and Automation Letters",
+          "date": { "start": 2020, "end": 2020, "ongoing": false },
+          "link": "https://ieee.org"
+        }
+      ]
+    },
+    {
+      "type": "languages",
+      "name": "Languages",
+      "elements": [
+        { "type": "language", "name": "English", "proficiency": "native" },
+        { "type": "language", "name": "Korean", "proficiency": "fluent" }
+      ]
+    }
+  ],
+  "skills": [
+    { "name": "ROS", "category": "Robotics", "level": "expert", "years_experience": 8 },
+    { "name": "C++", "category": "Programming", "level": "expert", "years_experience": 9 },
+    { "name": "Python", "category": "Programming", "level": "advanced", "years_experience": 7 },
+    { "name": "SLAM", "category": "Autonomy", "level": "advanced", "years_experience": 6 }
+  ]
 }

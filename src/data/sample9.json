@@ -1,12 +1,88 @@
 {
-  "first_name": "Leo",
-  "last_name": "Park",
-  "contact": { "email": "leo@email.com" },
-  "links": [],
-  "summary": "Freelancer.",
-  "education": [],
-  "work_experiences": [],
-  "extra_experiences": [],
-  "custom_sections": [],
-  "skills": [{ "name": "Communication" }]
+  "first_name": "Ethan",
+  "last_name": "Brooks",
+  "contact": {
+    "phone": "+1-310-555-6604",
+    "email": "ethan.brooks@email.com",
+    "address": {
+      "line1": "1200 Sunset Blvd",
+      "line2": "Apt 9C",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip": "90026"
+    }
+  },
+  "links": [
+    { "name": "Portfolio", "url": "https://ethanbrooks.games" },
+    { "name": "ArtStation", "url": "https://artstation.com/ethanbrooks" }
+  ],
+  "summary": "Game designer and narrative lead specializing in RPG systems and immersive storytelling.",
+  "education": [
+    {
+      "school_name": "University of Southern California",
+      "degree": "BFA Interactive Media",
+      "date": { "start": 2011, "end": 2015, "ongoing": false },
+      "location": "Los Angeles, CA",
+      "majors": ["Interactive Media"],
+      "minors": ["Creative Writing"],
+      "courses": [
+        "Game Design Workshop",
+        "Narrative Design",
+        "Player Psychology"
+      ],
+      "awards": ["Outstanding Game Design Award"],
+      "gpa": "3.74",
+      "education_description": "Focus on game systems and narrative-driven design."
+    }
+  ],
+  "work_experiences": [
+    {
+      "job_title": "Lead Narrative Designer",
+      "employer": "Obsidian Entertainment",
+      "date": { "start": 2016, "end": 2024, "ongoing": false },
+      "location": "Irvine, CA",
+      "job_type": "Full-Time",
+      "description": "Led narrative design for multiple AAA RPG titles.",
+      "bullets": [
+        "Directed branching storylines with 1M+ words of dialogue",
+        "Collaborated with design and engineering teams",
+        "Mentored junior narrative designers"
+      ]
+    }
+  ],
+  "extra_experiences": [
+    {
+      "type": "event",
+      "name": "GDC",
+      "role": "Panelist",
+      "date": { "start": 2023, "end": 2023, "ongoing": false },
+      "location": "San Francisco, CA",
+      "bullets": ["Spoke on narrative choice systems"],
+      "description": "Game Developers Conference panel",
+      "link": "https://gdconf.com"
+    }
+  ],
+  "custom_sections": [
+    {
+      "type": "publications",
+      "name": "Publications",
+      "elements": [
+        {
+          "type": "publication",
+          "name": "Designing Meaningful Player Choice",
+          "authors": ["Ethan Brooks"],
+          "topics": ["Game Design", "Narrative"],
+          "description": "Gamasutra Article",
+          "date": { "start": 2021, "end": 2021, "ongoing": false },
+          "link": "https://gamasutra.com"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    { "name": "Narrative Design", "category": "Game Design", "level": "expert", "years_experience": 12 },
+    { "name": "Game Systems Design", "category": "Game Design", "level": "advanced", "years_experience": 10 },
+    { "name": "Twine", "category": "Tools", "level": "advanced", "years_experience": 8 },
+    { "name": "Unity", "category": "Engine", "level": "intermediate", "years_experience": 6 }
+  ]
 }

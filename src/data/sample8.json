@@ -1,22 +1,97 @@
 {
-  "first_name": "Nina",
-  "last_name": "Brown",
-  "contact": { "email": "nina@email.com" },
-  "links": [],
-  "summary": "HR Manager.",
-  "education": [],
-  "work_experiences": [
+  "first_name": "Maria",
+  "last_name": "Gonzalez",
+  "contact": {
+    "phone": "+1-617-555-7721",
+    "email": "maria.gonzalez@email.com",
+    "address": {
+      "line1": "75 Francis St",
+      "line2": "Suite 410",
+      "city": "Boston",
+      "state": "MA",
+      "zip": "02115"
+    }
+  },
+  "links": [
+    { "name": "LinkedIn", "url": "https://linkedin.com/in/mariagonzalez-ds" },
+    { "name": "Google Scholar", "url": "https://scholar.google.com/maria-gonzalez" }
+  ],
+  "summary": "Healthcare data scientist focused on clinical prediction models and real-world evidence analytics.",
+  "education": [
     {
-      "job_title": "HR Manager",
-      "employer": "IBM",
-      "date": { "start": 2018, "end": 2024, "ongoing": false },
-      "location": "Remote",
-      "job_type": "Full-Time",
-      "description": "Hiring lead",
-      "bullets": ["Recruitment", "Training"]
+      "school_name": "Harvard University",
+      "degree": "PhD Biostatistics",
+      "date": { "start": 2013, "end": 2018, "ongoing": false },
+      "location": "Cambridge, MA",
+      "majors": ["Biostatistics"],
+      "minors": ["Epidemiology"],
+      "courses": [
+        "Survival Analysis",
+        "Causal Inference",
+        "Bayesian Statistics"
+      ],
+      "awards": ["NIH Predoctoral Fellowship"],
+      "dissertation": [
+        {
+          "title": "Predictive Modeling for Hospital Readmission Risk",
+          "authors": ["Maria Gonzalez"],
+          "date": { "start": 2016, "end": 2018, "ongoing": false },
+          "url": "https://harvard.edu/thesis",
+          "doi": "10.1234/readmission.risk",
+          "abstract": "Machine learning models for predicting patient readmission.",
+          "keywords": ["healthcare", "machine learning"],
+          "topics": ["Clinical Analytics"]
+        }
+      ],
+      "gpa": "3.92",
+      "education_description": "Advanced training in statistical modeling for healthcare data."
     }
   ],
-  "extra_experiences": [],
-  "custom_sections": [],
-  "skills": [{ "name": "Recruitment", "level": "expert" }]
+  "work_experiences": [
+    {
+      "job_title": "Senior Data Scientist",
+      "employer": "Mass General Brigham",
+      "date": { "start": 2018, "end": 2024, "ongoing": false },
+      "location": "Boston, MA",
+      "job_type": "Full-Time",
+      "description": "Built predictive models for clinical decision support.",
+      "bullets": [
+        "Deployed readmission prediction model across 5 hospitals",
+        "Improved AUC from 0.68 to 0.81",
+        "Worked closely with clinicians and IT teams"
+      ]
+    }
+  ],
+  "custom_sections": [
+    {
+      "type": "certifications",
+      "name": "Certifications",
+      "elements": [
+        {
+          "type": "certification",
+          "name": "Certified Health Data Scientist",
+          "issuer": "AHIMA",
+          "credential_id": "CHDS-99321",
+          "expiration_date": 2029,
+          "description": "Professional certification in health data analytics",
+          "date": { "start": 2019, "end": 2029, "ongoing": false },
+          "link": "https://ahima.org"
+        }
+      ]
+    },
+    {
+      "type": "languages",
+      "name": "Languages",
+      "elements": [
+        { "type": "language", "name": "English", "proficiency": "native" },
+        { "type": "language", "name": "Spanish", "proficiency": "native" }
+      ]
+    }
+  ],
+  "skills": [
+    { "name": "Python", "category": "Programming", "level": "expert", "years_experience": 10 },
+    { "name": "R", "category": "Statistics", "level": "expert", "years_experience": 11 },
+    { "name": "Machine Learning", "category": "Data Science", "level": "advanced", "years_experience": 8 },
+    { "name": "Healthcare Analytics", "category": "Domain", "level": "expert", "years_experience": 9 }
+  ]
 }
